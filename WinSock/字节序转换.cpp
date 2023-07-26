@@ -26,6 +26,8 @@ int main(int argc,char** argv)
 	cout << " 主机字节序 " << hex << b << endl;
 	cout << "  网络字节序 " << hex << a << endl;
 
+	WSACleanup();	// 注销WinSock DLL
+
 	return 0;
 }
 
