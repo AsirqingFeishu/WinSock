@@ -15,31 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="字节序转换.cpp">
+    <ClCompile Include="Client.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="域名解析.cpp">
+    <ClCompile Include="FTP_Client.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="服务和端口号.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="协议和协议号.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="服务器端.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="FTP服务器.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="多线程demo.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="fileMessge.h">
+    <ClCompile Include="fileMessage.h">
       <Filter>头文件</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
 </Project>
